@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+header {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#products {
+  flex: 3;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.product {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+}
+
+#cart {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 10px;
+  max-height: 400px;
+  overflow-y: auto;
+}

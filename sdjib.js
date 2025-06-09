@@ -1,3 +1,13 @@
+mini-dokon/
+├── index.html
+├── css/
+│   └── style.css
+├── js/
+│   └── script.js
+├── images/
+    ├── qalam.jpg
+    └── daftar.jpg
+
 const cartItemsEl = document.getElementById('cart-items');
 const totalEl = document.getElementById('total');
 const checkoutBtn = document.getElementById('checkout');

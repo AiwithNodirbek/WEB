@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mini Do‘kon</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Mini Do‘kon</h1>
+  </header>
+
+  <section id="products">
+    <div class="product" data-id="1" data-name="Qalam" data-price="1500">
+      <img src="images/qalam.jpg" alt="Qalam" />
+      <h2>Qalam</h2>
+      <p>Narxi: 1500 so‘m</p>
+      <button class="add-to-cart">Savatchaga qo‘shish</button>
+    </div>
+
+    <div class="product" data-id="2" data-name="Daftar" data-price="3000">
+      <img src="images/daftar.jpg" alt="Daftar" />
+      <h2>Daftar</h2>
+      <p>Narxi: 3000 so‘m</p>
+      <button class="add-to-cart">Savatchaga qo‘shish</button>
+    </div>
+    <!-- Yana qo‘shimcha mahsulotlar qo‘shishingiz mumkin -->
+  </section>
+
+  <aside id="cart">
+    <h2>Savatcha</h2>
+    <ul id="cart-items"></ul>
+    <p>Jami: <span id="total">0</span> so‘m</p>
+    <button id="checkout">Buyurtma berish</button>
+  </aside>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
